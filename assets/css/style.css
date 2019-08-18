@@ -51,6 +51,17 @@ body {
     padding: 34px;
 }
 
+.effective-listening-container {
+    height: 40vh;
+    background: url("../images/neonbrand-y_6rqStQBYQ-unsplash.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
 .callout {
     border-radius: 5px;
     background: linear-gradient(rgb(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
@@ -65,6 +76,13 @@ body {
 
 .welcome-description {
     color: #fff;
+}
+
+.course-header {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px 8px #000;
 }
 
 .input-group {
@@ -107,7 +125,7 @@ body {
     font-weight: 600;
 }
 
-.training-type {
+.title {
     font-size: 16px;
     font-weight: 400;
 }
@@ -115,4 +133,60 @@ body {
 .navbar-brand {
     letter-spacing: 3px;
     font-weight: 700;
+}
+
+.skill-label {
+    background: white;
+    border: 1px solid #015249;
+    border-radius: 5px;
+    color: #015249;
+    font-size: 10px;
+}
+
+.skills {
+    min-width: 100px;
+    margin-left: 10px;
+}
+
+.card-photo {
+    height: 20vh;
+    border-radius: 13px 13px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cs {
+    background-image: url("../images/clay-banks-Ox6SW103KtM-unsplash.jpg");
+}
+
+.lv {
+    background-image: url("../images/christin-hume-slbqShqAhEo-unsplash.jpg");
+}
+
+.cw {
+    background-image: url("../images/mimi-thian-lp1AKIUV3yo-unsplash.jpg");
+}
+
+.card-description {
+    background-color: #77C9D4;
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    height: 2.5rem;
+    padding: 5px;
+    border-radius: 0px 0px 13px 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-footer {
+    background-color: #a5a5af;
+}
+
+.footer-copyright {
+    font-size: 10px;
+    color: #fff;
 }
