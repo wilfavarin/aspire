@@ -51,9 +51,20 @@ body {
     padding: 34px;
 }
 
-.effective-listening-container {
+.effective-listening {
     height: 40vh;
     background: url("../images/neonbrand-y_6rqStQBYQ-unsplash.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
+.functional-technical {
+    height: 40vh;
+    background: url("../images/helloquence-OQMZwNd3ThU-unsplash.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +93,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     color: #fff;
+    /* adding some shadow on the text to make it more legible */
     text-shadow: 2px 2px 8px #000;
 }
 
@@ -108,7 +120,7 @@ body {
 .blurb {
     background-image: linear-gradient(#77C9D4, #57BC90);
     height: 200px;
-    color: white;
+    color: #fff;
     border-radius: 12px;
     padding: 25px;
 }
@@ -117,6 +129,11 @@ body {
     font-size: 20px;
     margin-bottom: 9px;
     font-weight: 600;
+}
+
+.sub-header {
+    color: #fff;
+    text-shadow: 1px 1px 8px #000;
 }
 
 .header {
