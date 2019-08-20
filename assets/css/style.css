@@ -169,6 +169,11 @@ body {
     border: 0px;
 }
 
+.collapsible-card {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
 .card-img-top {
     border-radius: 13px 13px 0px 0px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -176,10 +181,13 @@ body {
 
 .card-text {
     color: #fff;
+    font-weight: 400;
+    text-align: center;
 }
 
-.card-body {
+.cardbody {
     background: #77C9D4;
+    padding: 15px;
     border-radius: 0px 0px 13px 13px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
