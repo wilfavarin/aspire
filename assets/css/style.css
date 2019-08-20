@@ -165,36 +165,21 @@ body {
     margin-left: 10px;
 }
 
-.card-photo {
-    height: 20vh;
+.card {
+    border: 0px;
+}
+
+.card-img-top {
     border-radius: 13px 13px 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: block;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cs {
-    background-image: url("../images/clay-banks-Ox6SW103KtM-unsplash.jpg");
-}
-
-.lv {
-    background-image: url("../images/christin-hume-slbqShqAhEo-unsplash.jpg");
-}
-
-.cw {
-    background-image: url("../images/mimi-thian-lp1AKIUV3yo-unsplash.jpg");
-}
-
-.card-description {
-    background-color: #77C9D4;
-    font-size: 10px;
-    font-weight: 400;
+.card-text {
     color: #fff;
-    text-align: center;
-    height: 2.5rem;
-    padding: 5px;
+}
+
+.card-body {
+    background: #77C9D4;
     border-radius: 0px 0px 13px 13px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
