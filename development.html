@@ -46,7 +46,7 @@
         </div>
     </div>
     <!-- /.Header -->
-    <!-- Seminars agenda -->
+    <!-- Development Main -->
     <div class="container">
         <div class="row mb-3">
             <div class="col-12 mt-5">
@@ -76,21 +76,44 @@
                         <label for="exampleFormControlTextareaSkills">Now that you are clear where you would like to be, let’s plan how to get there. <br />Describe below what skills and other education you require to get there:</label>
                         <textarea class="form-control" id="exampleFormControlTextareaSkills" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success btn-sm">Submit</button>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#DevSuccess">Submit</button>
                 </form>
             </div>
         </div>
     </div>
-    <!-- /.Seminars agenda —->
-    <!-- Footer -->
-    <footer class="page-footer">
-        <div class="footer-copyright text-center py-3">Copyright © 2019 ASPIRE. All rights reserved.
+    <!-- /.Development Main -->
+    <!-- Modal -->
+    <div class="modal fade" id="DevSuccess" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content success">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You are all set to succeed!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6 mt-5">
+                                <p>Your manager is responsible to facilitate ongoing conversations and will be in touch soon to discuss your personal development plan.<br /><br /><br /> It is important to keep a record of your personal development by writing
+                                    down your learnings and development steps as and when they occur to be able to reflect on and measure your success at a later date.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <!-- /.Footer -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- /.Modal —->
+    <!-- Footer -->
+        <footer class="page-footer">
+            <div class="footer-copyright text-center py-3">Copyright © 2019 ASPIRE. All rights reserved.
+            </div>
+        </footer>
+        <!-- /.Footer -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
