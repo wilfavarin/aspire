@@ -48,38 +48,30 @@
     <!-- /.Header -->
     <!-- Development Main -->
     <div class="container">
-        <div class="row mb-3">
-            <div class="col-12 mt-5">
-                <p>Personal development can simply be for fun. This plan is a vital step on the way to identifying your personal development needs, and then taking actions to address them.</p>
+        <form>
+            <div class="row mb-3">
+                <div class="col-12 mt-5">
+                    <p>Personal development can simply be for fun. This plan is a vital step on the way to identifying your personal development needs, and then taking actions to address them.</p>
+                </div>
             </div>
             <div class="col-12 my-3">
                 <h3 class="title">Develop your personal goals</h3>
-                <p>Enter three goals you would like to achieve in the next year to start you development journey:</p>
-                <form>
-                    <div class="form-group row">
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="inputFirstGoal" placeholder="1">
-                        </div>
-                        <div class="col-sm-9 my-2">
-                            <input type="text" class="form-control" id="inputSecondGoal" placeholder="2">
-                        </div>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="inputThirdGoal" placeholder="3">
-                        </div>
-                    </div>
-                </form>
             </div>
-            <div class="col-12 mb-3">
+            <div class="col-md-7 form-group">
+                <label for="goals">Enter three goals you would like to achieve in the next year to start you development journey:</label>
+                <textarea class="form-control" id="goals" rows="3"></textarea>
+            </div>
+            <div class="col-12 my-3">
                 <h3 class="title">Plan your personal development</h3>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextareaSkills">Now that you are clear where you would like to be, let’s plan how to get there. <br />Describe below what skills and other education you require to get there:</label>
-                        <textarea class="form-control" id="exampleFormControlTextareaSkills" rows="3"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#DevSuccess">Submit</button>
-                </form>
+                <p>Now that you are clear where you would like to be, let’s plan how to get there.</p>
             </div>
-        </div>
+            <div class="col-md-9 form-group">
+                <label for="skills">Describe below what skills and other education you require to get there:</label>
+                <textarea class="form-control mb-3" id="skills" rows="4"></textarea>
+
+                <button type="submit" class="btn btn-success btn-sm" data-toggle="modal" data-target="#DevSuccess">Submit</button>
+            </div>
+        </form>
     </div>
     <!-- /.Development Main -->
     <!-- Modal -->
