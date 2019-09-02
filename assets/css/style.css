@@ -2,6 +2,7 @@ body {
     font-family: 'Source+Sans+Pro', sans-serif;
     font-size: 14px;
     font-weight: 200;
+    padding-top: 56px;
 }
 
 .welcome-container {
@@ -71,6 +72,55 @@ body {
     display: flex;
     align-items: center;
     padding: 34px;
+}
+
+.seminars {
+    height: 40vh;
+    background: url("../images/you-x-ventures-Oalh2MojUuk-unsplash.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
+.development {
+    height: 40vh;
+    background: url("../images/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
+.support {
+    height: 40vh;
+    background: url("../images/berkeley-communications-WEDDt-u3q3o-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
+.success {
+    height: 75vh;
+    background: url("../images/junior-moran-hrEJYRtBDrk-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 34px;
+}
+
+.dropdown-menu a {
+    font-family: 'Source+Sans+Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
 }
 
 .callout {
@@ -144,12 +194,22 @@ body {
 
 .title {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
+    color: #015249;
 }
 
-.navbar-brand {
+
+/* Styling the navbar */
+
+.navbar .navbar-brand {
     letter-spacing: 3px;
     font-weight: 700;
+    color: #015249;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #a5a5af;
 }
 
 .skill-label {
@@ -219,4 +279,8 @@ body {
     color: #015249;
     font-weight: 600;
     font-size: 20px;
+}
+
+.modal-content {
+    color: #fff;
 }
