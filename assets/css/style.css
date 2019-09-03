@@ -284,3 +284,28 @@ body {
 .modal-content {
     color: #fff;
 }
+
+.registr {
+    border-radius: 13px;
+    background: linear-gradient(#77C9D4, #57BC90);
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.seminar {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.time {
+    font-size: 14px;
+}
