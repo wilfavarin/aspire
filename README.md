@@ -30,10 +30,10 @@ Crucially, the ASPIRE L&D website must support a simple and thoughtful design wh
 
 The colour scheme shown below makes use of gradients and it was chosen to keep things very simple and minimal yet professional. Green represents the colour of growth, balance and tranquility and the mix makes up for a clean look and feel and fresh design.
 
-Feather #77C9D4,
-Marine #57BC90,
-Forest #015249,
-Sleek Grey #A5A5AF
+- ![#77C9D4](https://placehold.it/15/77C9D4/000000?text=+) `#77C9D4`
+- ![#57BC90](https://placehold.it/15/57BC90/000000?text=+) `#57BC90`
+- ![#015249](https://placehold.it/15/015249/000000?text=+) `#015249`
+- ![#A5A5AF](https://placehold.it/15/A5A5AF/000000?text=+) `#A5A5AF`
 
 The font *Source Sans Pro* was picked to be used throughout the whole website. It is a good typography which looks formal and it is believed to attract and hold the user’s attention.
  
@@ -62,17 +62,41 @@ Supporting the above it is also important that users feel a sense of ownership o
 
 ### User Stories
 
-* I want to be able to report an issue on the website / contact the L&D team / give general feedback.
+* I want to be able to report an issue on the website / contact the L&D team / give general feedback.<br />
 There is a support section in the navbar enabling users to fill out  and submit a support form request.
 
-* I want to be able to navigate easily around the site.
+* I want to be able to navigate easily around the site.<br />
 The navbar has clearly labelled links to all pages on the site, grouped in dropdown menus where appropriate. There are also buttons and text links throughout the site linking users to pages directly related to the page they are on.
 
-* As a new user, I want clear information about the site's purpose. 
+* As a new user, I want clear information about the site's purpose.<br />
 The home page includes a welcome message clearly explaining the site's purpose.
 
-* As a new joiner I want more information about company values and protocols.
+* As a new joiner I want more information about company values and protocols.<br />
 The Onboarding training section was developed to provide a more in-depth insight of company values and protocols.
+
+## Deployment
+
+The site is hosted on GithHub Pages at https://github.com/wilfavarin/aspire.git and is built from the master branch. The Master branch was created in the repository by:
+
+On GitHub, navigate to your GitHub Pages site's repository.
+Under your repository name, click Settings.
+Use the Select source drop-down menu to select master as your GitHub Pages publishing source.
+Click Save
+Should you wish to clone this simply:
+
+On GitHub, navigate to the main page of the repository.
+Under the repository name, click Clone or download.
+In the Clone with HTTPs section, click the copy icon to copy the clone URL for the repository.
+Open Git Bash.
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 2. ie. git clone https://github.com/wilfavarin/aspire.git
+Press Enter. Your local clone will be created.
+Cloning a repository to GitHub Desktop:
+
+On GitHub, navigate to the main page of the repository.
+Under your repository name, click the download icon to clone your repository in Desktop.
+Follow the prompts in GitHub Desktop to complete the clone.
+You can see the published live site <a href="https://wilfavarin.github.io/aspire/">here</a>.
 
 ### Technologies used
 
