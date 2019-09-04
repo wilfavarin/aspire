@@ -52,6 +52,17 @@ body {
     padding: 34px;
 }
 
+.devmessage-container {
+    background-image: url("../images/junior-moran-hrEJYRtBDrk-unsplash.jpg");
+    height: 90vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 34px;
+}
+
 .effective-listening {
     height: 40vh;
     background: url("../images/neonbrand-y_6rqStQBYQ-unsplash.jpg");
@@ -104,15 +115,6 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding: 34px;
-}
-
-.success {
-    height: 75vh;
-    background: url("../images/junior-moran-hrEJYRtBDrk-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 34px;
 }
 
@@ -212,6 +214,9 @@ body {
     color: #a5a5af;
 }
 
+
+/* /.Styling the navbar */
+
 .skill-label {
     background: white;
     border: 1px solid #015249;
@@ -279,10 +284,6 @@ body {
     color: #015249;
     font-weight: 600;
     font-size: 20px;
-}
-
-.modal-content {
-    color: #fff;
 }
 
 .registr {
