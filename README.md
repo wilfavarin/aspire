@@ -183,6 +183,10 @@ If any erros were found, they were fixed in the respective file.
             <td>Unsplash</td>
             <td>source free royalty images used on the website</td>
         </tr>
+          <tr>
+            <td>FontAwesome</td>
+            <td>provide icons used on the website</td>
+        </tr>
     </tbody>
   </table>
 
