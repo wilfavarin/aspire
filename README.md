@@ -15,11 +15,11 @@ The key headlines of the ASPIRE project brief are:
 
 Some other key working principles, to be incorporated into the website include:
 
-* Learn at your own pace
+* Learn at your own pace: 
 Self Guided courses that can be accessed anytime and anywhere.
-* Maximise Proficiency
+* Maximise Proficiency: 
 Deepen knowledge and hone skills by taking functional and technical training.
-* Gain Insight
+* Gain Insight: 
 Courses and information designed with employees in mind to enable personal and professional growth.
 
 ## Project Details
@@ -62,17 +62,32 @@ Supporting the above it is also important that users feel a sense of ownership o
 
 ### User Stories
 
-* I want to be able to report an issue on the website / contact the L&D team / give general feedback.<br />
-There is a support section in the navbar enabling users to fill out  and submit a support form request.
-
-* I want to be able to navigate easily around the site.<br />
-The navbar has clearly labelled links to all pages on the site, grouped in dropdown menus where appropriate. There are also buttons and text links throughout the site linking users to pages directly related to the page they are on.
-
 * As a new user, I want clear information about the site's purpose.<br />
 The home page includes a welcome message clearly explaining the site's purpose.
 
 * As a new joiner I want more information about company values and protocols.<br />
 The Onboarding training section was developed to provide a more in-depth insight of company values and protocols.
+
+* I want to easily search for a course or seminar.<br />
+The home page has a search bar functionality.
+
+* I want to quick identify what skills a course relates to.<br />
+When on a specific course page, the skills related to that course will be displayed on the learning objectives section.
+
+* I want to view all courses related to my department.<br />
+There is a section on the website dedicated to functional & technical training.
+
+* I want to create a personal development plan. <br />
+The Personal Development page was created to enable individuals to plan their development goals and plan on how to achieve them.
+
+* I want to be able to report an issue on the website / contact the L&D team / give general feedback.<br />
+There is a support section in the navbar enabling users to fill out  and submit a support form request.
+
+* I want to be able to navigate easily around the site.<br />
+The navbar has clearly labelled links to all pages on the site, grouped in dropdown menus where appropriate. There is also buttons throughout the site linking users to pages directly related to the page they are on.
+
+
+
 
 ## Deployment
 
@@ -81,7 +96,8 @@ The site is hosted on GithHub Pages at https://github.com/wilfavarin/aspire.git 
 On GitHub, navigate to your GitHub Pages site's repository.
 Under your repository name, click Settings.
 Use the Select source drop-down menu to select master as your GitHub Pages publishing source.
-Click Save
+Click Save.<br />
+
 Should you wish to clone this simply:
 
 On GitHub, navigate to the main page of the repository.
@@ -90,7 +106,8 @@ In the Clone with HTTPs section, click the copy icon to copy the clone URL for t
 Open Git Bash.
 Change the current working directory to the location where you want the cloned directory to be made.
 Type git clone, and then paste the URL you copied in Step 2. ie. git clone https://github.com/wilfavarin/aspire.git
-Press Enter. Your local clone will be created.
+Press Enter. Your local clone will be created.<br />
+
 Cloning a repository to GitHub Desktop:
 
 On GitHub, navigate to the main page of the repository.
@@ -158,7 +175,7 @@ You can see the published live site <a href="https://wilfavarin.github.io/aspire
 ### Proposed future features
 
 - Add all materials/courses for the website
-- Add search functionality
+- Implement search capabilities/functionality
 
 ## Credits
 
