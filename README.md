@@ -115,6 +115,20 @@ Under your repository name, click the download icon to clone your repository in 
 Follow the prompts in GitHub Desktop to complete the clone.
 You can see the published live site <a href="https://wilfavarin.github.io/aspire/">here</a>.
 
+
+## Testing
+
+The website was tested on an ongoing basis throughout the entire development process. Some iterations of layout were tried until the desired preferences were met.
+
+Google Chrome (version 76.0.3809.132) were used to audit and test the website on a different range of devices. Other browsers also used to test the display of the website includes Safari (version 12.1.2) and Mozilla Firefox (version 69.0).
+
+All HTML and CSS files were tested using the W3C Merkup validation service by following the steps below:
+1. Select and copy all contenta of a HTML/CSS file
+2. Go to the W3C Markup Validation Service
+3. Click on the "Validate by Direct Input tab"
+4. Paste the HTML/CSS into the box and click "Check"
+If any erros were found, they were fixed in the respective file.
+
 ### Technologies used
 
  <table>
@@ -176,12 +190,22 @@ You can see the published live site <a href="https://wilfavarin.github.io/aspire
 
 - Add all materials/courses for the website
 - Implement search capabilities/functionality
+- Build out seminar's registration with possible integration to an user calendar
+- Further development to collect the information submitted by users through the contact form section of the website.
 
 ## Credits
+
+### Content
+
+Some of the course description used on this website were leveraged from content offered by courses on Lynda.com.
 
 ### Images
 
 All images used on the website were obtained from Unsplash (https://unsplash.com). However they have been optimised using the JPEG-Optimizer (http://jpeg-optimizer.com) for a faster loading and thus enabling a better user experience.
+
+### Acknowledgments
+
+I would like to thank my mentor, Maranatha Ilesanmi, which provided great advice thorughout the various development phases of this project.
 
 
 ### Disclaimer
