@@ -51,29 +51,22 @@
             <div class="col-12 mt-5">
                 <p>Please complete the support request form below to contact the L&D team. <br /> You will receive an answer within 24 hours.</p>
             </div>
-            <div class="col-sm-6 mt-3">
+            <div class="col-md-6 mt-3">
                 <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlEmail">Your email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlEmail" placeholder="name@aspire.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlCategory">Enquiry Category</label>
-                        <select class="form-control" id="exampleFormControlCategory">
+                    <label for="Email">Your email address</label>
+                    <input type="email" class="form-control" id="Email" placeholder="alias@aspire.com" required>
+                    <br />
+                    <label for="enquiryCategory">Enquiry Category</label>
+                    <select class="form-control" id="enquiryCategory" required>
                         <option>General feedback</option>
                         <option>Contact the L&D team</option>
                         <option>Report a problem</option>
                         </select>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-9 mb-3">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlMessage">Message</label>
-                        <textarea class="form-control" id="exampleFormControlMessage" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-sm">Submit</button>
+                    <br />
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="Message" rows="3" required></textarea>
+                    <br />
+                    <input class="btn btn-success btn-sm" type="submit">
                 </form>
             </div>
         </div>
