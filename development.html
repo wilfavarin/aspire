@@ -47,57 +47,33 @@
     <!-- /.Header -->
     <!-- Development Main -->
     <div class="container">
-        <form>
-            <div class="row mb-3">
-                <div class="col-12 mt-5">
-                    <p>Personal development can simply be for fun. This plan is a vital step on the way to identifying your personal development needs, and then taking actions to address them.</p>
+        <div class="row mb-3">
+            <div class="col-12 mt-5">
+                <p>Personal development can simply be for fun. This plan is a vital step on the way to identifying your personal development needs, and then taking actions to address them.</p>
+            </div>
+            <form method="POST" action="development-message.html">
+                <div class="col-12 my-3">
+                    <h3 class="title">Develop your personal goals</h3>
                 </div>
-            </div>
-            <div class="col-12 my-3">
-                <h3 class="title">Develop your personal goals</h3>
-            </div>
-            <div class="col-md-7 form-group">
-                <label for="goals">Enter three goals you would like to achieve in the next year to start you development journey:</label>
-                <textarea class="form-control" id="goals" rows="3"></textarea>
-            </div>
-            <div class="col-12 my-3">
-                <h3 class="title">Plan your personal development</h3>
-                <p>Now that you are clear where you would like to be, let’s plan how to get there.</p>
-            </div>
-            <div class="col-md-9 form-group">
-                <label for="skills">Describe below what skills and other education you require to get there:</label>
-                <textarea class="form-control mb-3" id="skills" rows="4"></textarea>
-            </div>
-            <div class="col-12 mb-5">
-                <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#DevSuccess">Submit</button>
-            </div>
-        </form>
-    </div>
-    <!-- /.Development Main -->
-    <!-- Modal -->
-    <div class="modal fade" id="DevSuccess" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content success">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="ModalLabel">You are all set to succeed!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+                <div class="col-md-7 form-group">
+                    <label for="goals">Enter three goals you would like to achieve in the next year to start you development journey:</label>
+                    <textarea class="form-control" id="goals" rows="3" required></textarea>
                 </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6 mt-5">
-                                <p>Your manager is responsible to facilitate ongoing conversations and will be in touch soon to discuss your personal development plan.<br /><br /><br /> It is important to keep a record of your personal development by writing
-                                    down your learnings and development steps as and when they occur to be able to reflect on and measure your success at a later date.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-12 my-3">
+                    <h3 class="title">Plan your personal development</h3>
+                    <p>Now that you are clear where you would like to be, let’s plan how to get there.</p>
                 </div>
-            </div>
+                <div class="col-md-9 form-group">
+                    <label for="skills">Describe below what skills and other education you require to get there:</label>
+                    <textarea class="form-control mb-3" id="skills" rows="4" required></textarea>
+                </div>
+                <div class="col-12 mb-5">
+                    <input class="btn btn-success btn-sm" type="submit">
+                </div>
+            </form>
         </div>
     </div>
-    <!-- /.Modal —->
+    <!-- /.Development Main -->
     <!-- Footer -->
     <footer class="page-footer">
         <div class="footer-copyright text-center py-3">Copyright © 2019 ASPIRE. All rights reserved.
