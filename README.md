@@ -123,7 +123,7 @@ The website was tested on an ongoing basis throughout the entire development pro
 
 Google Chrome (version 76.0.3809.132) were used to audit and test the website on a different range of devices. Other browsers also used to test the display of the website includes Safari (version 12.1.2) and Mozilla Firefox (version 69.0).
 
-All HTML and CSS files were tested using the W3C Merkup validation service by following the steps below:
+All HTML and CSS files were tested using the <a href="https://validator.w3.org/#">W3C Markup validation service</a> by following the steps below:
 1. Select and copy all contenta of a HTML/CSS file
 2. Go to the W3C Markup Validation Service
 3. Click on the "Validate by Direct Input tab"
