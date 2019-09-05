@@ -144,9 +144,14 @@ body {
 .course-header {
     font-size: 30px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     /* adding some shadow on the text to make it more legible */
-    text-shadow: 2px 2px 8px #000;
+    text-shadow: 0px 0px 3px #fff;
+}
+
+.sub-header {
+    color: #000;
+    text-shadow: 0px 0px 1px #fff;
 }
 
 .input-group {
@@ -181,11 +186,6 @@ body {
     font-size: 20px;
     margin-bottom: 9px;
     font-weight: 600;
-}
-
-.sub-header {
-    color: #fff;
-    text-shadow: 1px 1px 8px #000;
 }
 
 .header {
