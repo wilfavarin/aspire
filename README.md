@@ -35,7 +35,7 @@ The colour scheme shown below makes use of gradients and it was chosen to keep t
 - ![#015249](https://placehold.it/15/015249/000000?text=+) `#015249`
 - ![#A5A5AF](https://placehold.it/15/A5A5AF/000000?text=+) `#A5A5AF`
 
-The font *Source Sans Pro* was picked to be used throughout the whole website. It is a good typography which looks formal and it is believed to attract and hold the user’s attention.
+The font *Source Sans Pro* was chosen to be used throughout the whole website. It is a good typography which looks formal and it is believed to attract and hold the user’s attention.
  
 Buttons will be distinctly displayed and labelled to make it easy for users to see where they have to click to progress through the website.
 
@@ -112,7 +112,8 @@ Cloning a repository to GitHub Desktop:
 
 On GitHub, navigate to the main page of the repository.
 Under your repository name, click the download icon to clone your repository in Desktop.
-Follow the prompts in GitHub Desktop to complete the clone.
+Follow the prompts in GitHub Desktop to complete the clone.<br />
+
 You can see the published live site <a href="https://wilfavarin.github.io/aspire/">here</a>.
 
 
@@ -126,7 +127,7 @@ All HTML and CSS files were tested using the W3C Merkup validation service by fo
 1. Select and copy all contenta of a HTML/CSS file
 2. Go to the W3C Markup Validation Service
 3. Click on the "Validate by Direct Input tab"
-4. Paste the HTML/CSS into the box and click "Check"
+4. Paste the HTML/CSS into the box and click "Check".<br />
 If any erros were found, they were fixed in the respective file.
 
 ### Technologies used
@@ -185,16 +186,16 @@ If any erros were found, they were fixed in the respective file.
         </tr>
           <tr>
             <td>FontAwesome</td>
-            <td>provide icons used on the website</td>
+            <td>provide the search icon used on the website</td>
         </tr>
     </tbody>
   </table>
 
 ### Proposed future features
 
-- Add all materials/courses for the website
-- Implement search capabilities/functionality
-- Build out seminar's registration with possible integration to an user calendar
+- Add all materials/courses for the website.
+- Implement search capabilities/functionality.
+- Build out seminar's registration with possible integration to the user's calendar.
 - Further development to collect the information submitted by users through the contact form section of the website.
 
 ## Credits
